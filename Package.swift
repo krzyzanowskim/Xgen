@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "Xgen", targets: ["Xgen"])
     ],
     dependencies: [
-        .package(url: "https://github.com/JohnSundell/Files.git", .branch("master")),
+        .package(url: "https://github.com/krzyzanowskim/Files.git", .branch("master")),
         .package(url: "https://github.com/JohnSundell/ShellOut.git", .branch("master"))
     ],
     targets: [
